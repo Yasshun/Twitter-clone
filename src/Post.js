@@ -27,9 +27,10 @@ function Post({
               <div className="post__header">
                   <div className="post__headerText">
                     <h3>
-                        Hayashi Shunya <span>
+                        Hayashi Shunya{""} <span className="post__headerSpecial">
                           <VerifiedUserIcon className="post__badge" />
-                        </span>@hayashi
+                          @hayashi
+                        </span>
                     </h3>
                   </div>
                   <div className="post__headerDescription">
